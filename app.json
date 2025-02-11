@@ -15,7 +15,7 @@
   "success_url": "/",
   "env": {
     "SESSION": {
-      "description": "Paste the session id that you received in WhatsApp after linking the bot. It's used for authentication.",
+      "description": "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiVUJGdUYvYjRUUFZ4dVgvYXQrOFJ3bXBsOE1vRjRxT0NTYi9vYU9Wa2lHQT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiUDkwTmE2TE5oWnBlSXlyOVFjdFRxYU16ang2L1VNdjRmS3Baa2xXd3hFRT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJhQVA4bkNoSTNYdFh6cnZ5cS91MmI2UVNrQk5ya0taMjJIZ012V281R0hvPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJKWTF3QlZBQ3lzR0ptRWRwMUJyOE01ZlIwVHpwekEzcjc2QkxCU0I0dEJvPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IklNVDcxN1VVNklzckNkbVF3WVptdGsxbk11TlZzSitBclJKVXRFSVA2VjA9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InE5aFhxOHhvdXRjR0Z1ZkNWY3RmZkRZbENoTzkyckYzSmthcHBrMG5DR1E9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiV095Vm1DR3BPTDJXV3p1emZLSThiNzl5RlFJRmRJNFQvQytnSzR1czJGOD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoia1FkSThad05NdXJYMldidGhkbDlKaFNYcGUvWDl1MWFNaXNFQS8vQ2JTWT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlE4d3VhSHFkOFlGTU1ua3pPRG1zRDcweVNuWWhUeGRJVFVCcTJmWFFuM1F5SHNuL0ZmdzVZY3FLSThBZkhqdnRrczh0NHVpekRYZU9rdmdOYzJMbWhBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6NjksImFkdlNlY3JldEtleSI6InQvUDZzMUlmdnNnL0ZyMTkrQ3IzN3lRenpiR3d4Vmk2Tms0TUc3dXpSdnM9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbeyJrZXkiOnsicmVtb3RlSmlkIjoiMjU0NzQ1ODI5MTc3QHMud2hhdHNhcHAubmV0IiwiZnJvbU1lIjp0cnVlLCJpZCI6IjkzRTcxMENBRDZCRTVDQjE1NTE3NkM5Qjk0NjYxQzJCIn0sIm1lc3NhZ2VUaW1lc3RhbXAiOjE3MzkyNjIwMTV9XSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6IlJNVXBla3pyUTd1SEVtckItbEl4clEiLCJwaG9uZUlkIjoiOTQ0ZjNjYTktOGZmNC00MDU3LThkNzktODg4OTZmYTYzMWRiIiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IklLYy80YnFWRU9iUk5Gdk8vUTMxanBqTTlCWT0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJrcExhMEpiSGx3L1RjTisxZFZ2YjBOTjlVbVk9In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiR1RBWEdLUlQiLCJtZSI6eyJpZCI6IjI1NDc0NTgyOTE3NzoyM0BzLndoYXRzYXBwLm5ldCIsIm5hbWUiOiJLaWphbmFfwqVhX05qYW1iaSJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDSkhHd0w4REVJK1FyTDBHR0J3Z0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiRENBSzh2K1VNNGpHbmtsajQyZm9ZZTA2WkprVTJ0blI0QUZnalpkMFBnRT0iLCJhY2NvdW50U2lnbmF0dXJlIjoidXZjM0w2emEzV0owVmpsUFRpeU53WmpsQmRmM3FoVXVYUVZxdU9CbWpwSEhnc3MvTXdGai9vL1VjKzlwUUNXU2huRWE2c0ZsWmhMNFFnM3EvYldoQ2c9PSIsImRldmljZVNpZ25hdHVyZSI6ImZzWlZHNWs2VTM1a3REZUQ5eE5nL3BjV21OSXVWc2I5MjhpUmNtdUovZytUQmRSMWlYVk9jNGxYSm5aSnV5QnlSVTRoaTBOTnNCcmE1dW5PSHZYdGhBPT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMjU0NzQ1ODI5MTc3OjIzQHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQlF3Z0N2TC9sRE9JeHA1SlkrTm42R0h0T21TWkZOclowZUFCWUkyWGRENEIifX1dLCJwbGF0Zm9ybSI6InNtYmEiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3MzkyNjE5ODIsIm15QXBwU3RhdGVLZXlJZCI6IkFBQUFBTzhIIn0=",
       "required": true
     },
     "MONGO_URI": {
@@ -24,11 +24,11 @@
       "required": true
     },
     "CODE": {
-      "description": "Enter your country code without +. Example: 254 for Kenya. This will allow the bot to detect and remove foreigners if commanded.",
+      "description": "254745829177",
       "required": true
     },
     "BOTNAME": {
-      "description": "Enter the name for your bot.",
+      "description": "OXYGEN.",
       "required": true
     },
     "GEMINI_API_KEY": {
@@ -37,11 +37,11 @@
       "required": false
     },
     "OTHER_CONTACT": {
-      "description": "This is the alternate contact number the bot will provide when Do Not Disturb (DND) is active. You can use your bot number or another if available. It ensures people can still reach you. Please enter only one number with no spaces.",
+      "description": "254745829177",
       "required": true
     },
     "MYNAME": {
-      "description": "The name the bot will use to refer to you during DND mode, ensuring users know how to address you.",
+      "description": "OXYGEN",
       "required": true
     },
     "HEROKU_APP_NAME": {
